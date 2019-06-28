@@ -5,18 +5,17 @@ class Game
   @@guesses = 9
   @@user_guess = gets.chomp.upcase
   def letterGuess
-  puts @@letter
+    puts "You have #{@@guesses} guesses left"
     if @@guesses != 0 
       if @@user_guess == @@letter
         puts 'You Win'
       else
         @@guesses = @@guesses - 1
-        puts "You have #{@@guesses} guesses left"
         @@user_guess = gets.chomp.upcase
         letterGuess
       end 
     else
-      puts 'Game Over'
+      puts "Game Over the letter was #{@@letter}"
     end
   end
 
