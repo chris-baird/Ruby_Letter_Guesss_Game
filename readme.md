@@ -1,5 +1,5 @@
 # Ruby Letter Guess
-Foobar is a Python library for dealing with word pluralization.
+Recursive letter guess game using the Ruby programming language.
 
 ![Imgur](https://i.imgur.com/eB0gPuh.png)
 
